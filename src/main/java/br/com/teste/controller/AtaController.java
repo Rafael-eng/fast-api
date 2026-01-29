@@ -2,7 +2,6 @@ package br.com.teste.controller;
 
 import br.com.teste.dto.AtaRequestDTO;
 import br.com.teste.dto.AtaResponseDTO;
-import br.com.teste.entity.Ata;
 import br.com.teste.service.AtaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -12,7 +11,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController

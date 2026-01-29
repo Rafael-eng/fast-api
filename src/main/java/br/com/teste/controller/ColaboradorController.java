@@ -2,7 +2,6 @@ package br.com.teste.controller;
 
 import br.com.teste.dto.ColaboradorRequestDTO;
 import br.com.teste.dto.ColaboradorResponseDTO;
-import br.com.teste.entity.Colaborador;
 import br.com.teste.service.ColaboradorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
