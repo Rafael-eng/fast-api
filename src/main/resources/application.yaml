@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: FastAPI
+
+  datasource:
+    url: jdbc:mysql://mysql:3306/fastapi?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: StrongPass123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
